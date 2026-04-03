@@ -1,0 +1,19 @@
+#
+def mul(a,b):
+    print("The Multiplication of the two numbers is",a*b)
+def add(a,b):
+    print("The Addition of the two numbers is",a+b)
+ 
+def sub(a,b):
+    print("The subtraction of the two numbers is",a-b)
+#main
+print("      THE CALCULATOR       ")
+x = int(input("Enter a number: "))
+y = int(input("Enter a another number: "))
+sel = input("Enter the operation symbol that you want to perform:")
+if sel == '*':
+    mul(x,y)
+elif sel == '+':
+    add(x,y)
+elif sel == '-':
+    sub(x,y)
